@@ -1,0 +1,26 @@
+install python, then do this
+
+
+Install these pips on cmd to run the code to access this program
+
+To run the code you've provided, you need to install the required Python packages using pip. Here's a list of the packages you'll need:
+
+speech_recognition: This package is for speech recognition.
+
+Install with:
+
+Copy code
+pip install SpeechRecognition
+pyttsx3: This package is for text-to-speech conversion.
+
+Install with:
+
+Copy code
+pip install pyttsx3
+requests: This package is for making HTTP requests.
+
+Install with:
+
+Copy code
+pip install requests
+Make sure to install these packages in your Python environment before running your code.

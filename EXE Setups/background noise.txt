@@ -1,0 +1,56 @@
+Main method for audio from pc to be "Heard" by the program
+
+Step 1: Install VB-Audio Virtual Cable
+Download VB-Audio Virtual Cable from the official site: VB-Audio Virtual Cable.
+Install the software by following the installation instructions provided. Typically, this involves extracting the files and running VBCABLE_Setup_x64.exe for 64-bit systems or VBCABLE_Setup.exe for 32-bit systems.
+Restart your computer after installation to ensure the virtual cable is properly configured.
+Step 2: Set Up VB-Cable in Windows Sound Settings
+Open Sound Settings:
+
+Right-click the speaker icon in the system tray (bottom-right corner of the screen).
+Select Sound settings or Open Sound settings.
+Configure Output Device:
+
+Under Output, set your usual audio output device (e.g., your speakers or headphones).
+Do not set VB-Cable as the default output device; this allows you to monitor sound while it’s still routed to the virtual cable.
+Configure Recording Device:
+
+Go to the Recording tab in Sound settings or Manage sound devices.
+Find CABLE Output (VB-Audio Virtual Cable) and set it as the default recording device.
+Step 3: Set Up Audio Routing in Software
+Route Audio from Output to VB-Cable:
+
+Open the application or media player where you want to capture audio (e.g., a browser, media player, or game).
+In its audio output settings, set CABLE Input (VB-Audio Virtual Cable) as the output device. This will route the audio directly into VB-Cable.
+Confirm Audio Routing:
+
+Play any audio on your computer (e.g., a video or music).
+In the Recording tab, you should see activity on CABLE Output (VB-Audio Virtual Cable). This confirms that audio is routed through the virtual cable.
+
+
+
+
+
+Old Method (Does not work, do not attempt)
+
+Enabling Loopback Recording for Speaker Output
+If you want to capture speaker output as an audio input, some Windows systems provide a "Stereo Mix" or "What U Hear" device, which serves as a loopback for the sound played through the speakers. Here’s how you can enable it:
+
+Step-by-Step Instructions
+Right-click the sound icon in the Windows taskbar (typically found on the bottom-right corner).
+
+Select "Sounds" from the menu to open the sound settings.
+
+In the "Sound" window, go to the "Recording" tab. This tab shows the available input devices.
+
+Look for a device named "Stereo Mix", "What U Hear", or similar:
+
+If it’s listed but disabled, right-click it and choose "Enable".
+If you don’t see it listed, right-click anywhere in the device list and ensure "Show Disabled Devices" is checked.
+Once Stereo Mix or a similar device is enabled, select it and click "Set as Default Device" if you want it as the primary input device. This step routes all speaker output as input for any software that records audio.
+
+Troubleshooting: If "Stereo Mix" is Missing
+If "Stereo Mix" or "What U Hear" doesn’t appear in the Recording tab:
+
+Update your audio drivers: Sometimes, drivers from the sound card manufacturer (e.g., Realtek) include support for Stereo Mix.
+Use Virtual Audio Cable software: Install software like VB-Audio Virtual Cable to create a virtual loopback device.

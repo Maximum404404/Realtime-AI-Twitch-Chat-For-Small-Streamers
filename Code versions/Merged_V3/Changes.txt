@@ -1,0 +1,10 @@
+Optimisation on file Chat_Response
+Optimisation on file Get_Mic_Input
+Optimisation on file PyAudio_Desktop
+Optimisation on file Screen_Desc
+Changed name of Merged_V2 to Merged_V3 
+Removed Loop on file Get_Mic_Input
+Removed Loop on file PyAudio_Desktop
+Removed Loop on file Screen_Desc
+Added noise suppression to GetPyAudio
+Made recording longer (PyAudio File)

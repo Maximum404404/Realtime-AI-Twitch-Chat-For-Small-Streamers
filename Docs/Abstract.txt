@@ -1,0 +1,20 @@
+Short (300) Words
+
+I'm developing a real-time AI-based chat system for small streamers, using the ChatGPT API (GPT-3.5 Turbo) to generate dynamic, interactive chat responses. This Python script, with a GUI built in tkinter, allows streamers to engage with their audience by capturing real-time inputs from the microphone, screen, and desktop audio. The program automates chat responses based on these inputs, making the chat feel lively and personalized.
+
+The user interface is simple to navigate, where streamers input their ChatGPT API key and username, and choose input methods (microphone, screen capture, or desktop audio). The script features customizable timers for input listening and response updating, giving streamers control over how often the chatbot reacts. It also includes error handling to ensure smooth operation, alerting the user when required details are missing.
+
+The system works by continuously capturing input. The capture_and_recognize_speech function transcribes speech from the microphone, start_capture handles screen input, and listen_and_output captures desktop audio. This data is sent to ChatGPT, which processes it to generate chat responses. The responses can include random Twitch-style usernames, colors, and phrases like "PogChamp" or "KEKW" to keep the interaction fresh and engaging.
+
+By using multiple input sources, the chatbot can respond to live events on the stream, creating a more immersive experience for viewers. This system gives small streamers an efficient way to automate audience interaction, enhancing engagement and stream quality in a unique and customizable way.
+
+
+
+
+
+Long
+I'm developing a real-time AI-based chat system for small streamers, leveraging the ChatGPT API to create a dynamic, interactive chat experience. This Python script is a GUI-based chatbot that enhances streamers' interaction with their audience by generating responses based on real-time inputs, such as microphone, screen capture, and desktop audio. The program integrates with the ChatGPT API (GPT-3.5 Turbo) to automate the generation of lively, contextually relevant responses to engage viewers. Unlike typical bots that rely on simple triggers, my system uses multiple inputs to create dynamic, personalized chat responses that reflect live events occurring on the stream.
+
+The user interface is built using tkinter and is designed for ease of use. Streamers can configure the chatbot by entering their ChatGPT API key and username. The GUI also allows customization of input methods, such as microphone, screen capture, or desktop audio, giving streamers flexibility in how they want the system to work. Timers are included for input listening and process resetting, allowing streamers to fine-tune the interaction frequency and timing. The program includes error handling to ensure smooth operation, displaying warnings if any required information is missing or if there are errors in capturing input, ensuring a seamless experience.
+
+The core of the system is continuous real-time input capture, where different functions handle each input type. The capture_and_recognize_speech function transcribes speech to text for microphone input, while the start_capture function handles screen input by capturing monitor descriptions. Desktop audio is captured through the listen_and_output function, transcribing game audio. Once input is captured, it’s sent to ChatGPT, which processes the data and generates engaging responses. These responses include a mix of random Twitch-style usernames, colors, and phrases like "PogChamp" or "KEKW," ensuring that the chat feels lively and unique. This system offers streamers a way to engage their audience more personally, using diverse input methods to generate chat responses that match the streamer's content in real-time.

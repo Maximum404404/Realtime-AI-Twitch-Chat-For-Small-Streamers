@@ -1,0 +1,5 @@
+Removed chatgpt from main base mic input file and seperated into two diffrent files
+created a merge file to use each file indivually
+added a gui onto merge file (Semi functional)
+added chatgpt stuff to main file
+placed all files into one folder (Ease of use)

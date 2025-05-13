@@ -1,0 +1,6 @@
+Open command prompt 
+
+To set the default Command Prompt window color, select the upper-left corner of the Command Prompt window, select Defaults, select the Colors tab, and then select the colors that you want to use for the Screen Text and Screen Background.
+
+close command prompt
+start exe
