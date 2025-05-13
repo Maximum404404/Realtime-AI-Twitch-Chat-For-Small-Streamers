@@ -1,0 +1,6 @@
+pyinstaller --console --onefile --add-data "Screen_Desc.py;." --add-data "Get_Mic_Input.py;." --add-data "pyaudio_desktop.py;." Merged_V7.py
+
+
+Required to make code run (Put into CMD)
+
+pip install tk mss pillow torch transformers speechrecognition pyaudio requests
